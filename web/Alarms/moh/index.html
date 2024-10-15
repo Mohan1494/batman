@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>AngularJS Example with Services and Factories</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="app.js"></script>
+</head>
+<body ng-controller="MainController">
+
+    <h1>{{ greeting }}</h1>
+    <p>{{ 'hello' | capitalize }}</p>
+    <p>Data from Service: {{ serviceData }}</p>
+    <p>Data from Factory: {{ factoryData }}</p>
+    
+    <h2>Items:</h2>
+    <ul>
+        <li ng-repeat="item in items">{{ item }}</li>
+    </ul>
+
+    <h2>Custom Directive:</h2>
+    <my-directive></my-directive>
+
+</body>
+</html>

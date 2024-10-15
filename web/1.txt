@@ -1,0 +1,12 @@
+1.create a cluster , M0 ,google cloud, create
+2.security, network access, add ip address, access from anywhere
+3.db access, add db user , username,password,builtin roles , read and write,create
+4.netwrok access , check active
+5.database , connect cluster , connect to your application(drivers), node js , copy connection string
+6. create db, dbname ,collection name, create 
+7. check collection name , db name in cluster
+8.code -> connection string paste, change password,dbname(before '?'),save
+9.npm init -y
+10.npm install express mongoose body parser cors
+11.node server.js
+12.open index.html  
